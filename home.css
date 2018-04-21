@@ -1,0 +1,160 @@
+/* jumbotron css */
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: white;
+  border-radius: 0;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 1.5);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 1.5);
+  }
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 60px;
+  color: #343a40;
+}
+
+@media (max-width: screen-sm) {
+  jumbotron-heading {
+    font-size: 14px;
+  }
+}
+
+.jumbotron .container {
+  max-width: 50rem;
+}
+
+/* nav-bar css */
+
+.navbar-toggler {
+  background: #343a40;
+  color: white;
+}
+
+.navbar-toggler:hover {
+  background: #2aa3ef;
+}
+
+.bg-nav {
+  background: rgba(255, 255, 255, 0.97);
+}
+
+.bg-nav a {
+  color: #343a40;
+}
+
+.bg-nav a:hover {
+  color: #2aa3ef;
+}
+
+.social-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.linkedin-icon {
+  padding-left: 10px;
+  margin-right: 30px;
+}
+
+.resume-btn a:hover {
+  color: white;
+}
+
+/* image div */
+.subtitle {
+  font-size: 24px;
+  color: #7f7f7f;
+}
+
+.my-photo {
+  border-radius: 50%;
+  height: 35%;
+  width: 35%;
+}
+
+/* about div */
+.sd-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  padding-top: 0px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.sd-subtitle {
+  color: #d0e5fe;
+  font-size: 24px;
+}
+
+/* skills */
+
+.our-skills .progress-bar {
+  line-height: 36px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.skills-progress .progress {
+  height: 45px;
+}
+
+.progress {
+  margin-top: 35px;
+}
+
+.github-subtitle {
+  color: #e1e3e4;
+  font-size: 24px;
+}
+
+.social-icon-bottom {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #343a40;
+}
+
+.social-icon-bottom:hover {
+  color: #2aa3ef;
+}
+
+
+
+/* footer */
+.div-container {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+a {
+  color: #2aa3ef;
+}
+a:hover {
+  color: #343a40;
+  text-decoration: none;
+}
+
+/* blue-color */
+.blue-btn {
+  background: #2aa3ef;
+  color: white;
+  border-color: #2aa3ef;
+}
+
+.blue-bg {
+  background: #2aa3ef;
+}
